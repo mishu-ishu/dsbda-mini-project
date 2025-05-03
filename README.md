@@ -1,12 +1,12 @@
-🏠 Real Estate Price Prediction using Machine Learning and Big Data Tools
+# 🏠 Real Estate Price Prediction using Machine Learning and Big Data Tools
 
-Overview
+## Overview
 
 This project leverages **Machine Learning** and **Big Data technologies** to predict real estate prices per unit area in **New Taipei City, Taiwan**. Using features like house age, MRT distance, number of convenience stores, and geolocation, the project builds a scalable, interpretable system for predicting housing prices. The models implemented include **Linear Regression** and **Decision Tree Regressor**, and are later scaled using **Apache Spark**.
 
 ---
 
-📌 Objectives
+## 📌 Objectives
 
 * Develop reliable ML models to predict house prices using structured real estate data.
 * Analyze model performance using statistical metrics like MAE, RMSE, and R² Score.
@@ -15,7 +15,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-🔍 Dataset
+## 🔍 Dataset
 
 * **Source**: UCI Machine Learning Repository
 * **Size**: 414 rows, 7 columns
@@ -30,7 +30,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-🧪 Methodology
+## 🧪 Methodology
 
 1. **Preprocessing**
 
@@ -64,7 +64,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-📈 Results Summary
+## 📈 Results Summary
 
 | Model               | MAE  | RMSE | R² Score | Training Time |
 | ------------------- | ---- | ---- | -------- | ------------- |
@@ -76,7 +76,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-📊 Visualizations (Generated in Colab)
+## 📊 Visualizations (Generated in Colab)
 
 * Feature Importance Plot
 * Residual Plot
@@ -85,7 +85,9 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-🏗️ Big Data Architecture
+## 🏗️ Big Data Architecture
+
+![Big Data Architecture Diagram](./images/big_data_architecture.png)
 
 | Stage       | Tool                      |
 | ----------- | ------------------------- |
@@ -97,7 +99,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-📚 References
+## 📚 References
 
 * Yeh, I.C., & Hsu, T.K. (2009). Building real estate valuation models with comparative analysis.
 * Zhang, Y. et al. (2015). Real estate valuation using Random Forests.
@@ -105,7 +107,7 @@ This project leverages **Machine Learning** and **Big Data technologies** to pre
 
 ---
 
-🔮 Future Work
+## 🔮 Future Work
 
 * Integrate external datasets (crime rate, school zones, property photos)
 * Use deep learning (CNNs for image + RNNs for trends)
